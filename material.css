@@ -2974,7 +2974,7 @@ div.box {
 
 .mdl-button:hover {
     background-color: rgba(158, 158, 158, .2);
-	color: #49BF99
+	color: #7800a3
 }
 
 .mdl-button:focus:not(:active) {
@@ -2998,7 +2998,7 @@ input.mdl-button[type="submit"] {
 }
 
 .mdl-button--raised {
-    background: #49BF99;
+    background: #7800a3;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12)
 }
 
@@ -4926,7 +4926,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     min-height: 64px;
     max-height: 1000px;
     z-index: 3;
-    background-color: #317F66;
+    background-color: #470060;
     color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     transition-duration: .2s;
@@ -5527,7 +5527,7 @@ _:-ms-input-placeholder,
 .mdl-slider {
     width: calc(100% - 40px);
     margin: 0 20px;
-    color: #317F66;
+    color: #470060;
 }
 
 .mdl-slider.is-upgraded {
@@ -5542,7 +5542,7 @@ _:-ms-input-placeholder,
     user-select: none;
     outline: 0;
     padding: 0;
-    color: #317F66;
+    color: #470060;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -5592,7 +5592,7 @@ _:-ms-input-placeholder,
     height: 12px;
     box-sizing: border-box;
     border-radius: 50%;
-    background: #317F66;
+    background: #470060;
     border: none;
     transition: transform .18s cubic-bezier(.4, 0, .2, 1), border .18s cubic-bezier(.4, 0, .2, 1), box-shadow .18s cubic-bezier(.4, 0, .2, 1), background .28s cubic-bezier(.4, 0, .2, 1);
     transition: transform .18s cubic-bezier(.4, 0, .2, 1), border .18s cubic-bezier(.4, 0, .2, 1), box-shadow .18s cubic-bezier(.4, 0, .2, 1), background .28s cubic-bezier(.4, 0, .2, 1), -webkit-transform .18s cubic-bezier(.4, 0, .2, 1)
@@ -5619,7 +5619,7 @@ _:-ms-input-placeholder,
 
 .mdl-slider.is-upgraded:active::-webkit-slider-thumb {
     background-image: none;
-    background: #317F66;
+    background: #470060;
     -webkit-transform: scale(1.5);
     transform: scale(1.5)
 }
@@ -5827,7 +5827,7 @@ _:-ms-input-placeholder,
 }
 
 .mdl-slider__background-lower {
-    background: #317F66;
+    background: #470060;
 }
 
 .mdl-slider__background-lower,
@@ -7717,6 +7717,3 @@ fieldset[disabled] .mdl-textfield .mdl-textfield__label,
         margin-left: 91.6666666667%
     }
 }
-
-
-/*# sourceMappingURL=material.min.css.map */
