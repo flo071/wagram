@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+	<link rel="icon" type="image/x-icon" href="../../../favicon.ico">
+	<link rel="stylesheet" href="../../../material.css">
+	<script defer src="../../../material.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link href="../../../icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../../w3.css">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+	<title>Runde 2000</title>
+</head>
+<body>
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+		mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<div class="mdl-layout-spacer"><center><h1>Runde 2000</h1></center></div>
+				<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+					mdl-textfield--floating-label mdl-textfield--align-right">
+					<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+						<i class="material-icons">search</i>
+					</label>
+					<div class="mdl-textfield__expandable-holder">
+						<input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="mdl-layout__drawer">
+			<a class="mdl-layout-title" href="../../../index.html">Unsere Pfarre</a>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="../../../team.html">Pfarrteam</a>
+				<a class="mdl-navigation__link" href="../../../gruppen.html">Gruppen</a>
+				<a class="mdl-navigation__link" href="../../../placeholder">Liturgie</a>
+				<a class="mdl-navigation__link" href="../../../schwarzes_brett.html">Schwarzes Brett</a>
+				<a class="mdl-navigation__link" href="../../../placeholder">Bilder der Pfarre</a>
+				<a class="mdl-navigation__link" href="../../../links.html">Verweise</a>
+			</nav>
+		</div>
+		<main class="mdl-layout__content">
+			<div class="page-content">
+			<center>
+			<br>
+			<h2>Reise der Runde 2000 nach Tirol vom 14. bis 18, September 2013</h2>
+			<br>
+			<div class="w3-content w3-display-container">
+            <div class="w3-display-container mySlides">
+                <img src="erl1.jpg" style="height: 565px;">
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="erl2.jpg" style="height: 565px;">
+            </div>
+            <div class="w3-display-container mySlides">    
+                <img  src="erl3.jpg" style="height: 565px;">
+            </div>
+            <div class="w3-display-container mySlides">    
+                <img  src="erl4.jpg" style="height: 565px;">
+            </div>
+            <div class="w3-display-container mySlides">    
+                <img  src="erl5.jpg" style="height: 565px;">
+            </div>
+            <div class="w3-display-container mySlides">    
+                <img  src="erl6.jpg" style="height: 565px;">
+            </div>
+                <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  if (n > x.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  x[slideIndex-1].style.display = "block";  
+                }
+            </script>
+            <br>
+            <hr>
+            <br>
+            <a href="../../runde2000.html">
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" style="margin-right: 5px; margin-left: 5px; margin-top: 5px; margin-bottom: 5px;">
+					Zurück
+				</button>
+			</a>
+			</center>
+		</div>
+	</main>
+</div>
+</body>
