@@ -146,6 +146,15 @@ textarea {
         margin: 24px 0;
         page-break-after: avoid
     }
+    h3 {
+        font-size: 30px;
+        font-family: roboto;
+        font-weight: 900;
+        orphans: 3;
+        widows: 3;
+        margin: 24px 0;
+        page-break-after: avoid
+    }
     p {
         font-size: 15px;
         font-family: roboto;
@@ -209,40 +218,37 @@ main {
     display: none!important
 }
 
-h1 {
-    font-size: 40px;
-    font-family: roboto;
-    font-weight: 900;
-}
-
-h2 {
-    font-size: 25px;
-    font-family: roboto;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 30;
-    font-family: roboto;
-    font-weight: 550;
-    text-decoration: underline;
-}
-
-h4 {
-    font-size: 30;
-    font-family: roboto;
-    font-weight: 500;
-}
-
-h5 {
+    h1 {
+        font-size: 40px;
         font-family: roboto;
-        font-size: 23px;
+        font-weight: 900;
+        margin: 24px 0;
     }
-
-p {
-    font-size: 15px;
-    font-family: roboto;
-}
+    h2 {
+        font-size: 25px;
+        font-family: roboto;
+        font-weight: 900;
+        orphans: 3;
+        widows: 3;
+        margin: 24px 0;
+        page-break-after: avoid
+    }
+    h3 {
+        font-size: 30px;
+        font-family: roboto;
+        font-weight: 900;
+        orphans: 3;
+        widows: 3;
+        margin: 24px 0;
+        page-break-after: avoid
+    }
+    p {
+        font-size: 15px;
+        font-family: roboto;
+        orphans: 3;
+        widows: 3;
+        margin: 0 0 16px
+    }
 
 board {
     text-align: center;
