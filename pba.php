@@ -44,8 +44,8 @@
 					if ($handle = opendir('./pb/alt')) {
     					while (false !== ($entry = readdir($handle))) {
         					if ($entry != "." && $entry != "..") {
-            					echo "<a href='$entry' target='_blank'>
-                					<button class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect' style='width: 200px; height: 100px; margin-right: 5px; margin-left: 5px; margin-top: 5px; margin-bottom: 5px;'>
+            					echo "<a href='./pb/alt/$entry' target='_blank'>
+                					<button class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect' style='width: 400px; height: 75px; margin-right: 5px; margin-left: 5px; margin-top: 5px; margin-bottom: 5px;'>
              							$entry
              						</button>
             					</a><br>";

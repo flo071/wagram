@@ -270,14 +270,6 @@ gruppen {
     transform: translate(-50%, -50%)
 }
 
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 2px solid black;
-}
-
 tr {
     background-color: #f2f2f2;
 }
